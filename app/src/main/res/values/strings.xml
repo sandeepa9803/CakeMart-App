@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">MyMADProject</string>
+    <string name="Orderhere">Order Here</string>
+    <string name="orderid">Order ID</string>
+    <string name="ck001">CK001</string>
+    <string name="ordertype">Order Type</string>
+    <string name="birthdaycake">Birthday Cake</string>
+    <string name="ordername">Order Name</string>
+    <string name="ordername_input">sanka birthday</string>
+    <string name="weight">Weight</string>
+    <string name="weightinput">1Kg</string>
+    <string name="quantity">Quantity</string>
+    <string name="ordered_date">Ordered Date</string>
+    <string name="ordereddateinput">2022/05/10</string>
+    <string name="price">Price</string>
+    <string name="priceinput">Rs 2000/=</string>
+    <string name="paymentmethod">Payment Method</string>
+    <string name="cashondelivery">Cash on Delivery</string>
+    <string name="cardpayment">Card Payment</string>
+    <string name="btnsubmit">Submit</string>
+    <string name="btncancel">Cancel</string>
+    <string name="yourorderisprocessing">Your order is Processing</string>
+</resources>

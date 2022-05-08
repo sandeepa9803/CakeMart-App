@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f2f2f2"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:id="@+id/WeightIn1"
+        android:layout_width="122dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/custom_input"
+        android:drawableEnd="@drawable/custom_input"
+        android:drawablePadding="12dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:paddingStart="9dp"
+        android:text="1kg"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/Weight1"
+        app:layout_constraintTop_toBottomOf="@+id/OrdernameIn1" />
+
+    <TextView
+        android:id="@+id/orderType1"
+        android:layout_width="83dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif-thin"
+        android:text="Order Type"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/OrderID1" />
+
+    <TextView
+        android:id="@+id/Weight1"
+        android:layout_width="54dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="sans-serif"
+        android:text="Weight"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/orderName1" />
+
+    <TextView
+        android:id="@+id/OrderID1"
+        android:layout_width="77dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="sans-serif"
+        android:text="Order ID"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cakephoto1" />
+
+
+    <TextView
+        android:id="@+id/orderName1"
+        android:layout_width="97dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="sans-serif-thin"
+        android:text="Order Name"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/orderType1" />
+
+    <ImageView
+        android:id="@+id/cakephoto1"
+        android:layout_width="376dp"
+        android:layout_height="112dp"
+        android:layout_marginTop="12dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.457"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar1"
+        app:srcCompat="@drawable/sa" />
+
+    <TextView
+        android:id="@+id/Quantity1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:text="Quantity"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Weight1" />
+
+    <TextView
+        android:id="@+id/OrderId2"
+        android:layout_width="144dp"
+        android:layout_height="21dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="16dp"
+        android:text="CK001"
+        android:textColor="#FF0000"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.107"
+        app:layout_constraintStart_toEndOf="@+id/OrderID1"
+        app:layout_constraintTop_toBottomOf="@+id/cakephoto1" />
+
+    <EditText
+        android:id="@+id/orderTypeIn1"
+        android:layout_width="235dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/custom_input"
+        android:drawableEnd="@drawable/custom_input"
+        android:drawablePadding="12dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:paddingStart="9dp"
+        android:text="Birthday Cake"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.243"
+        app:layout_constraintStart_toEndOf="@+id/orderType1"
+        app:layout_constraintTop_toBottomOf="@+id/OrderId2" />
+
+    <EditText
+        android:id="@+id/OrdernameIn1"
+        android:layout_width="236dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/custom_input"
+        android:drawableEnd="@drawable/custom_input"
+        android:drawablePadding="12dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:paddingStart="9dp"
+        android:text="sanka birthday"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.205"
+        app:layout_constraintStart_toEndOf="@+id/orderName1"
+        app:layout_constraintTop_toBottomOf="@+id/orderTypeIn1" />
+
+    <EditText
+        android:id="@+id/QuantityIn1"
+        android:layout_width="122dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/custom_input"
+        android:drawableEnd="@drawable/custom_input"
+        android:drawablePadding="12dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:paddingStart="9dp"
+        android:text="3"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/Quantity1"
+        app:layout_constraintTop_toBottomOf="@+id/WeightIn1" />
+
+    <EditText
+        android:id="@+id/PriceIn1"
+        android:layout_width="229dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/custom_input"
+        android:drawableEnd="@drawable/custom_input"
+        android:drawablePadding="12dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:paddingStart="45dp"
+        android:text="Rs 2000/="
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.058"
+        app:layout_constraintStart_toEndOf="@+id/Price1"
+        app:layout_constraintTop_toBottomOf="@+id/OrderedDateIn1" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup1"
+        android:layout_width="144dp"
+        android:layout_height="66dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="168dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/PaymentMethod1">
+
+        <RadioButton
+            android:id="@+id/CashOnRadio1"
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:checked="true"
+            android:text="Cash on Delivery"
+            android:textColor="#000000" />
+
+        <RadioButton
+            android:id="@+id/CardPayment1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Card Payment"
+            android:textColor="#000000" />
+    </RadioGroup>
+
+    <ImageView
+        android:id="@+id/card1"
+        android:layout_width="24dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.076"
+        app:layout_constraintStart_toEndOf="@+id/radioGroup1"
+        app:layout_constraintTop_toBottomOf="@+id/dollarIc1"
+        app:srcCompat="@drawable/ic_baseline_credit_card_24" />
+
+    <ImageView
+        android:id="@+id/dollarIc1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/card1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.076"
+        app:layout_constraintStart_toEndOf="@+id/radioGroup1"
+        app:layout_constraintTop_toBottomOf="@+id/PaymentMethod1"
+        app:srcCompat="@drawable/ic_baseline_monetization_on_24" />
+
+    <EditText
+        android:id="@+id/OrderedDateIn1"
+        android:layout_width="226dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/custom_input"
+        android:drawableEnd="@drawable/custom_input"
+        android:drawablePadding="12dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:paddingStart="9dp"
+        android:text="2022/05/10"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/OrderedDate1"
+        app:layout_constraintTop_toBottomOf="@+id/QuantityIn1" />
+
+    <Button
+        android:id="@+id/btnCancel1"
+        android:layout_width="82dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="88dp"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/custom_button1"
+        android:fontFamily="@font/quicksandbold1"
+        android:text="Cancel"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.049"
+        app:layout_constraintStart_toEndOf="@+id/btnSubmit1"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup1" />
+
+    <Button
+        android:id="@+id/btnSubmit1"
+        android:layout_width="87dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/custom_button"
+        android:fontFamily="@font/quicksandbold1"
+        android:text="Submit"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup1" />
+
+    <TextView
+        android:id="@+id/OrderedDate1"
+        android:layout_width="103dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="sans-serif"
+        android:text="Ordered Date"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Quantity1" />
+
+    <ImageView
+        android:id="@+id/calenderIn1"
+        android:layout_width="18dp"
+        android:layout_height="16dp"
+        android:layout_marginEnd="4dp"
+        app:layout_constraintBottom_toBottomOf="@+id/OrderedDateIn1"
+        app:layout_constraintEnd_toEndOf="@+id/OrderedDateIn1"
+        app:layout_constraintTop_toTopOf="@+id/OrderedDateIn1"
+        app:layout_constraintVertical_bias="0.545"
+        app:srcCompat="@drawable/ic_baseline_calendar_month_24" />
+
+    <TextView
+        android:id="@+id/Price1"
+        android:layout_width="48dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:text="Price"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/OrderedDate1" />
+
+    <TextView
+        android:id="@+id/PaymentMethod1"
+        android:layout_width="132dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="sans-serif-thin"
+        android:text="Payment Method"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.057"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Price1" />
+
+    <ImageView
+        android:id="@+id/drop1"
+        android:layout_width="24dp"
+        android:layout_height="22dp"
+        android:layout_marginEnd="4dp"
+        app:layout_constraintBottom_toBottomOf="@+id/orderTypeIn1"
+        app:layout_constraintEnd_toEndOf="@+id/orderTypeIn1"
+        app:layout_constraintTop_toBottomOf="@+id/OrderId2"
+        app:layout_constraintVertical_bias="0.888"
+        app:srcCompat="@drawable/ic_baseline_arrow_drop_down_24" />
+
+    <ImageView
+        android:id="@+id/Quanty1"
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        android:layout_marginEnd="4dp"
+        app:layout_constraintBottom_toBottomOf="@+id/QuantityIn1"
+        app:layout_constraintEnd_toEndOf="@+id/QuantityIn1"
+        app:layout_constraintTop_toTopOf="@+id/QuantityIn1"
+        app:layout_constraintVertical_bias="0.272"
+        app:srcCompat="@drawable/ic_baseline_exposure_plus_1_24" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar1"
+        android:layout_width="427dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="12dp"
+        android:background="#1417DA"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintBottom_toTopOf="@+id/cakephoto1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/OrderHere1"
+        android:layout_width="195dp"
+        android:layout_height="50dp"
+        android:fontFamily="@font/quicksandbold1"
+        android:text="Order Here"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/toolbar1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.381"
+        app:layout_constraintStart_toEndOf="@+id/back1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <ImageView
+        android:id="@+id/back1"
+        android:layout_width="40dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="24dp"
+        app:layout_constraintBottom_toBottomOf="@+id/toolbar1"
+        app:layout_constraintStart_toStartOf="@+id/toolbar1"
+        app:layout_constraintTop_toTopOf="@+id/toolbar1"
+        app:layout_constraintVertical_bias="0.48"
+        app:srcCompat="@drawable/ic_baseline_arrow_back_24" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

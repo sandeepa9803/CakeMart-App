@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Sankalpa Disanayaka/AndroidStudioProjects/MyMADproject/app/src/main/res/drawable-v24/custom_button.xml" value="0.233" />
+        <entry key="..\:/Users/Sankalpa Disanayaka/AndroidStudioProjects/MyMADproject/app/src/main/res/drawable-v24/deletebtn.xml" value="0.2595" />
+        <entry key="..\:/Users/Sankalpa Disanayaka/AndroidStudioProjects/MyMADproject/app/src/main/res/drawable-v24/down.xml" value="0.1" />
+        <entry key="..\:/Users/Sankalpa Disanayaka/AndroidStudioProjects/MyMADproject/app/src/main/res/drawable-v24/gradient_background.xml" value="0.211" />
+        <entry key="..\:/Users/Sankalpa Disanayaka/AndroidStudioProjects/MyMADproject/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.121" />
+        <entry key="..\:/Users/Sankalpa Disanayaka/AndroidStudioProjects/MyMADproject/app/src/main/res/drawable-v24/signbtn2.xml" value="0.1" />
+        <entry key="..\:/Users/Sankalpa Disanayaka/AndroidStudioProjects/MyMADproject/app/src/main/res/drawable-v24/up.xml" value="0.256" />
+        <entry key="..\:/Users/Sankalpa Disanayaka/AndroidStudioProjects/MyMADproject/app/src/main/res/drawable-v24/updatebtn.xml" value="0.19" />
+        <entry key="..\:/Users/Sankalpa Disanayaka/AndroidStudioProjects/MyMADproject/app/src/main/res/drawable/addbtn.xml" value="0.1" />
+        <entry key="..\:/Users/Sankalpa Disanayaka/AndroidStudioProjects/MyMADproject/app/src/main/res/drawable/addcake.xml" value="0.2595" />
+        <entry key="..\:/Users/Sankalpa Disanayaka/AndroidStudioProjects/MyMADproject/app/src/main/res/drawable/adddelivery.xml" value="0.2595" />
+        <entry key="..\:/Users/Sankalpa Disanayaka/AndroidStudioProjects/MyMADproject/app/src/main/res/drawable/custom_button.xml" value="0.2225" />
+        <entry key="..\:/Users/Sankalpa Disanayaka/AndroidStudioProjects/MyMADproject/app/src/main/res/drawable/custom_button1.xml" value="0.1" />
+        <entry key="..\:/Users/Sankalpa Disanayaka/AndroidStudioProjects/MyMADproject/app/src/main/res/drawable/custom_input.xml" value="0.2225" />
+        <entry key="..\:/Users/Sankalpa Disanayaka/AndroidStudioProjects/MyMADproject/app/src/main/res/drawable/gradient_back.xml" value="0.2465" />
+        <entry key="..\:/Users/Sankalpa Disanayaka/AndroidStudioProjects/MyMADproject/app/src/main/res/drawable/home.xml" value="0.121" />
+        <entry key="..\:/Users/Sankalpa Disanayaka/AndroidStudioProjects/MyMADproject/app/src/main/res/drawable/ic_baseline_arrow_back_24.xml" value="0.121" />
+        <entry key="..\:/Users/Sankalpa Disanayaka/AndroidStudioProjects/MyMADproject/app/src/main/res/drawable/ic_baseline_credit_card_24.xml" value="0.121" />
+        <entry key="..\:/Users/Sankalpa Disanayaka/AndroidStudioProjects/MyMADproject/app/src/main/res/drawable/ic_baseline_monetization_on_24.xml" value="0.121" />
+        <entry key="..\:/Users/Sankalpa Disanayaka/AndroidStudioProjects/MyMADproject/app/src/main/res/drawable/ic_launcher_background.xml" value="0.121" />
+        <entry key="..\:/Users/Sankalpa Disanayaka/AndroidStudioProjects/MyMADproject/app/src/main/res/drawable/menu.xml" value="0.121" />
+        <entry key="..\:/Users/Sankalpa Disanayaka/AndroidStudioProjects/MyMADproject/app/src/main/res/drawable/refresh.xml" value="0.2595" />
+        <entry key="..\:/Users/Sankalpa Disanayaka/AndroidStudioProjects/MyMADproject/app/src/main/res/drawable/searchbtn.xml" value="0.2375" />
+        <entry key="..\:/Users/Sankalpa Disanayaka/AndroidStudioProjects/MyMADproject/app/src/main/res/drawable/uporde.xml" value="0.2595" />
+        <entry key="..\:/Users/Sankalpa Disanayaka/AndroidStudioProjects/MyMADproject/app/src/main/res/font/.xml" value="0.14322916666666666" />
+        <entry key="..\:/Users/Sankalpa Disanayaka/AndroidStudioProjects/MyMADproject/app/src/main/res/font/abeezee.xml" value="0.284375" />
+        <entry key="..\:/Users/Sankalpa Disanayaka/AndroidStudioProjects/MyMADproject/app/src/main/res/font/abezee.xml" value="0.14427083333333332" />
+        <entry key="..\:/Users/Sankalpa Disanayaka/AndroidStudioProjects/MyMADproject/app/src/main/res/font/berkshire_swash.xml" value="0.25677083333333334" />
+        <entry key="..\:/Users/Sankalpa Disanayaka/AndroidStudioProjects/MyMADproject/app/src/main/res/font/convergence.xml" value="0.25677083333333334" />
+        <entry key="..\:/Users/Sankalpa Disanayaka/AndroidStudioProjects/MyMADproject/app/src/main/res/layout/activity_cake_mart.xml" value="0.264" />
+        <entry key="..\:/Users/Sankalpa Disanayaka/AndroidStudioProjects/MyMADproject/app/src/main/res/layout/activity_calculateapp.xml" value="0.264" />
+        <entry key="..\:/Users/Sankalpa Disanayaka/AndroidStudioProjects/MyMADproject/app/src/main/res/layout/activity_homenew.xml" value="0.264" />
+        <entry key="..\:/Users/Sankalpa Disanayaka/AndroidStudioProjects/MyMADproject/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/Sankalpa Disanayaka/AndroidStudioProjects/MyMADproject/app/src/main/res/layout/activity_my_application2.xml" value="0.176" />
+        <entry key="..\:/Users/Sankalpa Disanayaka/AndroidStudioProjects/MyMADproject/app/src/main/res/layout/activity_myapplication.xml" value="0.23052536231884058" />
+        <entry key="..\:/Users/Sankalpa Disanayaka/AndroidStudioProjects/MyMADproject/app/src/main/res/layout/activity_orderupdate.xml" value="0.25" />
+        <entry key="..\:/Users/Sankalpa Disanayaka/AndroidStudioProjects/MyMADproject/app/src/main/res/layout/activity_payment.xml" value="0.2265625" />
+        <entry key="..\:/Users/Sankalpa Disanayaka/AndroidStudioProjects/MyMADproject/app/src/main/res/layout/activity_pricecalculate.xml" value="0.2" />
+        <entry key="..\:/Users/Sankalpa Disanayaka/AndroidStudioProjects/MyMADproject/app/src/main/res/layout/activity_update_delete.xml" value="0.23854166666666668" />
+        <entry key="..\:/Users/Sankalpa Disanayaka/AndroidStudioProjects/MyMADproject/app/src/main/res/menu/menu.xml" value="0.264" />
+        <entry key="..\:/Users/Sankalpa Disanayaka/AndroidStudioProjects/MyMADproject/app/src/main/res/menu/order.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

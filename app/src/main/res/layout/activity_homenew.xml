@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Homenew"
+    android:background="#CEAB93">
+
+
+    <TextView
+        android:id="@+id/title1"
+        android:layout_width="306dp"
+        android:layout_height="65dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/berkshire_swash"
+        android:text="Cake Mart"
+        android:textColor="#A11D56"
+        android:textSize="50sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="370dp"
+        android:layout_height="330dp"
+        android:layout_marginTop="16dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title1"
+        app:srcCompat="@drawable/cake4" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="331dp"
+        android:layout_height="91dp"
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/berkshire_swash"
+        android:text="To make your sweet moments more delicious"
+        android:textColor="#6E4654"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.708"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/navigationView"
+        android:layout_width="418dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="24dp"
+        android:background="#A11D56"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/AddBTn2"
+        app:layout_constraintVertical_bias="1.0"
+        tools:layout_editor_absoluteX="-1dp">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingStart="315dp"
+            app:srcCompat="@drawable/ic_baseline_person_24" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="52dp"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/ic_baseline_home_24" />
+
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="137dp"
+            android:layout_height="match_parent"
+            android:paddingStart="90dp"
+            app:srcCompat="@drawable/ic_baseline_menu_book_24" />
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="234dp"
+            android:layout_height="match_parent"
+            android:paddingStart="180dp"
+            app:srcCompat="@drawable/ic_baseline_shopping_cart_24" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingStart="170dp"
+            app:srcCompat="@drawable/ic_baseline_delivery_dining_24" />
+
+    </com.google.android.material.navigation.NavigationView>
+
+    <Button
+        android:id="@+id/AddBTn2"
+        android:layout_width="113dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="44dp"
+        android:background="@drawable/signbtn2"
+        android:text="Sign up"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.567"
+        app:layout_constraintStart_toEndOf="@+id/upDeleteBtn"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <Button
+        android:id="@+id/upDeleteBtn"
+        android:layout_width="108dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="44dp"
+        android:background="@drawable/signbtn"
+        android:text="Sign in"
+        android:textColor="#FFFFFF"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

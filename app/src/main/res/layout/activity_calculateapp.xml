@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:gravity="center"
+tools:context=".calculateapp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="508dp">
+
+        <CheckBox
+            android:id="@+id/chk1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="WEDDING CAKE"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/toolbar2" />
+
+        <CheckBox
+            android:id="@+id/chk2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="BIRTHDAY CAKE"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/chk1" />
+
+        <CheckBox
+            android:id="@+id/chk3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SPECIAL OFFER CAKE"
+            android:textColor="@color/design_default_color_error"
+
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/chk2" />
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="124dp"
+            android:layout_height="43dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="52dp"
+            android:background="@drawable/refresh"
+            android:fontFamily="@font/quicksandbold1"
+            android:text="Refresh"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.918"
+            app:layout_constraintStart_toEndOf="@+id/btn1"
+            app:layout_constraintTop_toBottomOf="@+id/chk3" />
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="116dp"
+            android:layout_height="43dp"
+            android:layout_marginStart="52dp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/addcake"
+            android:fontFamily="@font/quicksandbold1"
+            android:text=" Add cake"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/chk3" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="365dp"
+            android:layout_height="45dp"
+            android:layout_marginStart="29dp"
+            android:layout_marginTop="52dp"
+            android:layout_marginEnd="29dp"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn2">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="39dp"
+                android:text="Total Cake Price"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/txtsub"
+                android:layout_width="wrap_content"
+                android:layout_height="37dp"
+                android:layout_margin="5sp"
+                android:background="#D3C0C0"
+                android:ems="10"
+                android:paddingStart="50dp"
+                android:drawablePadding="12dp"
+                android:enabled="false"
+                android:textColor="#000000"
+                android:textColorHighlight="#915B5B"
+                tools:ignore="TouchTargetSizeCheck" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/AdDeliBtn2"
+            android:layout_width="295dp"
+            android:layout_height="46dp"
+            android:layout_marginTop="44dp"
+            android:background="@drawable/adddelivery"
+            android:fontFamily="@font/quicksandbold1"
+            android:text="Add Your Delivery Details"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.53"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar2"
+            android:layout_width="393dp"
+            android:layout_height="48dp"
+            android:background="#1417DA"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="?attr/actionBarTheme"
+            app:layout_constraintEnd_toEndOf="@+id/chk3"
+            app:layout_constraintStart_toStartOf="@+id/chk1"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="143dp"
+            android:layout_height="39dp"
+            android:layout_marginTop="4dp"
+            android:fontFamily="@font/quicksandbold1"
+            android:text="Total Bill"
+            android:textColor="#FFFFFF"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.56"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+</LinearLayout>
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+
+</LinearLayout>
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+</LinearLayout>
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+</LinearLayout>
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+</LinearLayout>
+
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TableLayout
+
+        android:id="@+id/tb1"
+        android:layout_width="match_parent"
+        android:layout_height="360dp"
+        android:background="#D3C0C0"
+        android:stretchColumns="*"
+        android:textColor="#000000">
+
+        <TableRow
+            android:id="@+id/tbrow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000">
+
+            <TextView
+                android:id="@+id/t1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cake Name"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/t2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cake Price"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/t3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Quantity"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/t4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Total"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+
+        </TableRow>
+
+    </TableLayout>
+
+
+</LinearLayout>
+
+</LinearLayout>

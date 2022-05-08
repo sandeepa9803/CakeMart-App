@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MyApplication2"
+    android:background="#f2f2f2">
+
+
+    <TextView
+        android:id="@+id/WeGht6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/abeezee"
+        android:text="Weight"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/CaKeIma2"
+        app:layout_constraintTop_toBottomOf="@+id/InputOrdersE1" />
+
+    <TextView
+        android:id="@+id/QuAntiTy7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/abeezee"
+        android:text="Quantity"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/CaKeIma2"
+        app:layout_constraintTop_toBottomOf="@+id/We1ght5" />
+
+    <TextView
+        android:id="@+id/PayMentM"
+        android:layout_width="156dp"
+        android:layout_height="21dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/abeezee"
+        android:text="Payment Method"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/CaKeIma2"
+        app:layout_constraintTop_toBottomOf="@+id/QuntyInput1" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="44dp"
+        app:layout_constraintStart_toEndOf="@+id/UPdateW"
+        app:layout_constraintTop_toBottomOf="@+id/PayMentM">
+
+    </RadioGroup>
+
+    <ImageView
+        android:id="@+id/CaKeIma2"
+        android:layout_width="169dp"
+        android:layout_height="487dp"
+        android:layout_marginStart="16dp"
+
+
+        android:layout_marginTop="40dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toLBar2"
+        app:srcCompat="@drawable/aaaa" />
+
+    <Button
+        android:id="@+id/UPdateW"
+        android:layout_width="96dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/updatebtn"
+        android:fontFamily="@font/quicksandbold"
+        android:text="Update"
+        android:textColor="#FFFFFF"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/CaKeIma2" />
+
+    <Button
+        android:id="@+id/DELetEq"
+        android:layout_width="99dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="64dp"
+        android:background="@drawable/deletebtn"
+        android:fontFamily="@font/quicksandbold"
+        android:text="Delete"
+        android:textColor="#FFFFFF"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup2" />
+
+    <EditText
+        android:id="@+id/InputOrdersE1"
+        android:layout_width="181dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/custom_input"
+        android:drawableEnd="@drawable/down"
+        android:drawablePadding="12dp"
+        android:ems="10"
+        android:hint="Select Your Order type"
+        android:inputType="textPersonName"
+        android:paddingStart="9dp"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.355"
+        app:layout_constraintStart_toEndOf="@+id/CaKeIma2"
+        app:layout_constraintTop_toBottomOf="@+id/OrderTypeser2" />
+
+    <TextView
+        android:id="@+id/OrderTypeser2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/abeezee"
+        android:text="Order Type"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.18"
+        app:layout_constraintStart_toEndOf="@+id/CaKeIma2"
+        app:layout_constraintTop_toBottomOf="@+id/SearchMe" />
+
+    <TextView
+        android:id="@+id/OrdeRNaMe2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="96dp"
+        android:fontFamily="@font/abeezee"
+        android:text="Order Name"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toLBar2" />
+
+    <EditText
+        android:id="@+id/EnterOrdeR3"
+        android:layout_width="182dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="12dp"
+
+        android:background="@drawable/custom_input"
+        android:drawablePadding="12dp"
+        android:ems="10"
+        android:hint="Enter Your Order Name"
+        android:inputType="textPersonName"
+        android:paddingStart="9dp"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.386"
+        app:layout_constraintStart_toEndOf="@+id/CaKeIma2"
+        app:layout_constraintTop_toBottomOf="@+id/OrdeRNaMe2" />
+
+    <EditText
+        android:id="@+id/We1ght5"
+        android:layout_width="179dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/custom_input"
+        android:drawableEnd="@drawable/down"
+        android:drawablePadding="12dp"
+        android:ems="10"
+        android:hint="Enter Cake Weight"
+        android:inputType="textPersonName"
+        android:paddingStart="9dp"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/CaKeIma2"
+        app:layout_constraintTop_toBottomOf="@+id/WeGht6" />
+
+    <EditText
+        android:id="@+id/QuntyInput1"
+        android:layout_width="174dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/custom_input"
+        android:drawableEnd="@drawable/plus"
+        android:drawablePadding="12dp"
+        android:ems="10"
+        android:hint="Enter Quantity"
+        android:inputType="textPersonName"
+        android:paddingStart="9dp"
+        android:paddingEnd="9dp"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.111"
+        app:layout_constraintStart_toEndOf="@+id/CaKeIma2"
+        app:layout_constraintTop_toBottomOf="@+id/QuAntiTy7" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup2"
+        android:layout_width="139dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toEndOf="@+id/CaKeIma2"
+        app:layout_constraintTop_toBottomOf="@+id/PayMentM">
+
+        <RadioButton
+            android:id="@+id/CardRadio6"
+            android:layout_width="match_parent"
+            android:layout_height="28dp"
+            android:text="Card Payment" />
+
+        <RadioButton
+            android:id="@+id/CashRaDio5"
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:text="Cash on Delivery" />
+    </RadioGroup>
+
+    <ImageView
+        android:id="@+id/CArdDD"
+        android:layout_width="24dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.457"
+        app:layout_constraintStart_toEndOf="@+id/radioGroup2"
+        app:layout_constraintTop_toBottomOf="@+id/PayMentM"
+        app:srcCompat="@drawable/ic_baseline_credit_card_24" />
+
+    <ImageView
+        android:id="@+id/DoLAR3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.457"
+        app:layout_constraintStart_toEndOf="@+id/radioGroup2"
+        app:layout_constraintTop_toBottomOf="@+id/CArdDD"
+        app:srcCompat="@drawable/ic_baseline_monetization_on_24" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toLBar2"
+        android:layout_width="414dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="48dp"
+        android:background="@color/purple_700"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintBottom_toTopOf="@+id/CaKeIma2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/backs2"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/updateDeleteH"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/quicksandbold"
+        android:text="Update or Delete Your Order"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/toLBar2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/backs2"
+        app:layout_constraintTop_toTopOf="@+id/toLBar2" />
+
+    <ImageView
+        android:id="@+id/backs2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/toLBar2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.47"
+        app:srcCompat="@drawable/ic_baseline_arrow_back_24" />
+
+    <Button
+        android:id="@+id/SearchMe"
+        android:layout_width="114dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/searchbtn"
+        android:fontFamily="@font/quicksandbold"
+        android:text="Search"
+        android:textColor="#FFFFFF"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.419"
+        app:layout_constraintStart_toEndOf="@+id/CaKeIma2"
+        app:layout_constraintTop_toBottomOf="@+id/EnterOrdeR3" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
